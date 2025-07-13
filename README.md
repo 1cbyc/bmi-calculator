@@ -1,5 +1,8 @@
 # BMI Calculator Pro
 
+(i always ask ai to write my readme for me, i suck at it. unless you want me writing some small letter life explanation of my process, then we good. otherwise, enjoy this help from chatgpt)
+
+
 A modern, feature-rich BMI (Body Mass Index) calculator desktop application built with Python and CustomTkinter. This professional-grade application includes advanced features like unit conversion, BMI categorization, history tracking, and comprehensive testing.
 
 ## Features
