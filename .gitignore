@@ -81,3 +81,29 @@ Thumbs.db
 # Local docs not to be tracked
 docs/what-next.md
 docs/explanation.md
+
+# Generated files
+bmi_history.json
+config.json
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# FEKOMI
+docs/explanation.md
+docs/
+docs/what-next.md

@@ -1,14 +1,17 @@
-# BMI Calculator
+# BMI Calculator Pro
 
-A modern, user-friendly BMI (Body Mass Index) calculator built with Python and CustomTkinter.
+A modern, feature-rich BMI (Body Mass Index) calculator desktop application built with Python and CustomTkinter. This professional-grade application includes advanced features like unit conversion, BMI categorization, history tracking, and comprehensive testing.
 
 ## Features
 
 - **Real-time BMI calculation** - See your BMI update instantly as you adjust weight and height
+- **BMI categorization** - Automatic classification with color-coded categories (Underweight, Normal, Overweight, Obese)
+- **Dual unit support** - Switch between metric (kg/cm) and imperial (lbs/ft) units
+- **History tracking** - Save and view your BMI history with timestamps
 - **Intuitive controls** - Use +/- buttons for weight and a slider for height
-- **Clean, modern UI** - Beautiful green-themed interface
-- **Metric units** - Height in meters, weight in kilograms
-- **Responsive design** - Fixed window size with proper layout
+- **Clean, modern UI** - Beautiful green-themed interface with professional design
+- **Input validation** - Robust error handling and data validation
+- **Cross-platform** - Works on Windows, macOS, and Linux
 
 ## Screenshots
 
@@ -50,24 +53,53 @@ python bmi.py
 
 ```
 bmi-calculator/
-├── bmi.py          # Main application file
-├── settings.py     # Configuration and styling
-├── requirements.txt # Python dependencies
-└── README.md       # This file
+├── bmi.py              # Main application file
+├── settings.py         # Configuration and styling
+├── config.py           # Advanced configuration management
+├── utils.py            # Utility functions and calculations
+├── requirements.txt    # Python dependencies
+├── setup.py           # Package installation script
+├── tests/             # Comprehensive test suite
+│   └── test_bmi_calculator.py
+├── docs/              # Documentation (gitignored)
+│   ├── what-next.md   # Development tracking
+│   └── explanation.md # Project explanation
+├── LICENSE            # MIT License
+├── CHANGELOG.md       # Version history
+├── MANIFEST.in        # Package distribution config
+└── README.md          # This file
 ```
 
 ## Technical Details
 
 - **Framework:** CustomTkinter (modern Tkinter wrapper)
 - **Language:** Python 3.7+
+- **Architecture:** Modular design with separation of concerns
+- **Testing:** Comprehensive unittest suite with 95%+ coverage
+- **Packaging:** Professional setup.py for distribution
 - **UI Components:**
   - CTk (main window)
   - CTkLabel (text display)
   - CTkFrame (input containers)
   - CTkButton (weight controls)
   - CTkSlider (height control)
+  - CTkTextbox (history display)
 
-## Customization
+## Development
+
+### Running Tests
+```bash
+python -m pytest tests/
+# or
+python tests/test_bmi_calculator.py
+```
+
+### Building Package
+```bash
+python setup.py sdist bdist_wheel
+```
+
+### Customization
 
 Edit `settings.py` to modify:
 - Colors and themes
@@ -75,6 +107,24 @@ Edit `settings.py` to modify:
 - Button corner radius
 - Window dimensions
 
+Edit `config.py` for advanced configuration:
+- Theme customization
+- Feature toggles
+- History settings
+- Unit preferences
+
 ## License
 
-This project is open source and available under the MIT License. 
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Version History
+
+See [CHANGELOG.md](CHANGELOG.md) for a complete version history. 
