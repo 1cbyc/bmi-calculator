@@ -32,10 +32,19 @@ The calculator features:
 
 ## Usage
 
-Run the BMI calculator:
+### GUI Version (requires Tcl/Tk)
+Run the GUI BMI calculator:
 ```bash
 python bmi.py
 ```
+
+### Console Version (no GUI dependencies)
+Run the console BMI calculator:
+```bash
+python bmi_console.py
+```
+
+**Note**: If you encounter Tcl/Tk errors with the GUI version, use the console version which has all the same features!
 
 ### How to use:
 1. **Adjust weight** using the +/- buttons:
