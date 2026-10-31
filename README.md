@@ -1,3 +1,5 @@
+> **Licensing update (31 October 2026):** The current policy requires prior written permission for reuse and a separate agreement for AI training. See [LICENSE](LICENSE). Earlier grants remain valid for previously licensed material; [LICENSE.previous](LICENSE.previous) preserves those terms. Any older license descriptions below describe the previous policy. Contact [ei@nsisong.com](mailto:ei@nsisong.com).
+
 # BMI Calculator Pro
 
 (i always ask ai to write my readme for me, i suck at it. unless you want me writing some small letter life explanation of my process, then we good. otherwise, enjoy this help from chatgpt)
@@ -139,4 +141,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Version History
 
-See [CHANGELOG.md](CHANGELOG.md) for a complete version history. 
+See [CHANGELOG.md](CHANGELOG.md) for a complete version history.
